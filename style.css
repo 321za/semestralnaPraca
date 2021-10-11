@@ -7,3 +7,31 @@ nav{
 .navigacia{
     text-align: middle;
 }
+
+.galeria{
+    float: left;
+}
+
+.galeria img:hover{
+    opacity: 0.5;
+}
+
+.galeria:hover .popis {
+  opacity: 1;
+}
+
+
+.hlavnaStranka{
+     margin: auto;
+     width:72%;
+}
+
+.popis{
+      opacity: 0;
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 16px 32px;
+}
+
+
